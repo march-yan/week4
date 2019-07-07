@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="408dp"
+        android:layout_height="wrap_content"
+        android:text="text"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="411dp"
+        android:layout_height="59dp"
+        android:text="BGM"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="405dp"
+        android:layout_height="60dp"
+        android:text="ON_THE_ONE"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="402dp"
+        android:layout_height="59dp"
+        android:text="何時可完成"
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        tools:layout_editor_absoluteX="-1dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
